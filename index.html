@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>5D I is trash</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="scripts/compareImages.js"></script>
+        <script src="scripts/magnifierImage.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="rows">
+                <div class="row mgb30">
+                    <div class="col-lg-12">
+                        <h1 class="text-center">Compare Images</h1>
+                    </div>
+                </div>
+                <h2>Pic 1</h2>
+                <div class="row mgb30">
+                    <div class="col-lg-12">
+                        <h3>Use slide</h3>
+                        <div class="img-comp-container">
+                            <div class="img-comp-img">
+                                <img src="img/IMG_9812.JPG" title="shot on shitty 5d" width="1110px" height="624px">
+                            </div>
+                            <div class="img-comp-img img-comp-overlay-1">
+                                <img src="img/DSC05647.JPG" title="shot on a6000" width="1110px" height="624px">
+                            </div>
+                        </div>
+                        <script>initComparisons();</script>
+                    </div>
+                </div>
+                <h3>Compare</h3>
+                <div class="row mgb30">
+                    <div class="col-lg-6"><img class="img-thumbnail" src="img/DSC05647.JPG" title="shot on a6000"></div>
+                    <div class="col-lg-6"><img class="img-thumbnail" src="img/IMG_9812.JPG" title="shot on shitty 5d"></div>
+                </div>
+            </div>
+
+
+            <div class="rows">
+                <h2>Pic 2</h2>
+                <h3>Zoom</h3>
+                <div class="row mgb30">
+                    <div class="col-lg-6 img-magnifier-container"><img id="pic2a6k" class="img-thumbnail " src="img/DSC05670.JPG" title="shot on a6000"></div>
+                    <script>magnify("pic2a6k", 5)</script>
+                    <div class="col-lg-6 img-magnifier-container"><img id="pic25d" class="img-thumbnail " src="img/IMG_9855.JPG" title="shot on shitty 5d"></div>
+                    <script>magnify("pic25d", 5)</script>
+                </div>
+            </div>
+
+            <div class="rows">
+                <h2>Pic 3</h2>
+                <h3>Zoom</h3>
+                <div class="row mgb30">
+                    <div class="col-lg-6 img-magnifier-container"><img id="pic3a6k" class="img-thumbnail " src="img/DSC05691.JPG" title="shot on a6000"></div>
+                    
+                    <div class="col-lg-6 img-magnifier-container"><img id="pic35d" class="img-thumbnail " src="img/IMG_9870.JPG" title="shot on shitty 5d"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
