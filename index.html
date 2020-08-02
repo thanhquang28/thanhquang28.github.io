@@ -1,64 +1,235 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>5D I is trash</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="scripts/compareImages.js"></script>
-        <script src="scripts/magnifierImage.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <div class="rows">
-                <div class="row mgb30">
-                    <div class="col-lg-12">
-                        <h1 class="text-center">Compare Images</h1>
+
+<head>
+    <title>Le Quang Thanh CV</title>
+
+    <!--Boostrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!--Custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cv">
+            <!--Name and job want to join-->
+            <div class="col-12 cv-header">
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6 text-right">
+                        <span class="headerName">Lê Quang Thành</span><br />
+                        <span class="jobWant">web developer</span>
                     </div>
                 </div>
-                <h2>Pic 1</h2>
-                <div class="row mgb30">
-                    <div class="col-lg-12">
-                        <h3>Use slide</h3>
-                        <div class="img-comp-container">
-                            <div class="img-comp-img">
-                                <img src="img/IMG_9812.JPG" title="shot on shitty 5d" width="1110px" height="624px">
+            </div>
+
+            <!--Main-->
+            <div class="col-12 cv-main">
+                <div class="row">
+                    <!--Content-->
+                    <div class="col-8 content">
+                        <div class="content-item target">
+                            <h3>Mục tiêu nghề nghiệp</h3>
+                            <p>Em đã hoàn thành chương trình của ngành công nghệ thông tin tại FPT Aptech. Có kiến thức
+                                về các ngôn ngữ lập trình Java, C#, PHP, HTML, CSS, JS và khả năng đọc hiểu tài liệu
+                                chuyên ngành bằng tiếng Anh tốt. Em mong muốn tìm được công việc phù hợp với chuyên môn
+                                em đã được học đó là vị trí lập trình viên. Với sự kiên trì, chịu khó học hỏi, em sẽ
+                                tích luỹ kinh nghiệm và học thêm những ngôn ngữ lập trình mới để có thể trở thành một
+                                lập trình viên giỏi và cơ hội thăng tiến trong nghề nghiệp sau này là mục tiêu em hướng
+                                đến.</p>
+                        </div>
+                        <div class="content-item education">
+                            <div class="content-item-title">
+                                <span><i class="far fa-lightbulb"></i></span>
+                                <span>học vấn</span>
                             </div>
-                            <div class="img-comp-img img-comp-overlay-1">
-                                <img src="img/DSC05647.JPG" title="shot on a6000" width="1110px" height="624px">
+                            <div class="content-item-main">
+                                <div class="content-item-main__list">
+                                    <div class="content-item-main__item">
+                                        <div class="row">
+                                            <div class="col-6 content-item-main__item-title">
+                                                fpt aptech
+                                            </div>
+                                            <div class="col-6 content-item-main__item-time">
+                                                04/2018 - 07/2020
+                                            </div>
+                                            <div class="col-12 content-item-main__item-des">
+                                                Chuyên ngành: Công nghệ thông tin
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-item-main__item">
+                                        <div class="row">
+                                            <div class="col-6 content-item-main__item-title">
+                                                Học viện Kỹ thuật Quân sự
+                                            </div>
+                                            <div class="col-6 content-item-main__item-time">
+                                                09/2017 - nay
+                                            </div>
+                                            <div class="col-12 content-item-main__item-des">
+                                                Chuyên ngành: Điện tử viễn thông
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <script>initComparisons();</script>
+                        <div class="content-item exp">
+                            <div class="content-item-title">
+                                <span><i class="far fa-user"></i></span>
+                                <span>kinh nghiệm</span>
+                            </div>
+                            <div class="content-item-main">
+                                <div class="content-item-main__list">
+                                    <div class="content-item-main__item">
+                                        <div class="row">
+                                            <div class="col-6 content-item-main__item-title">
+                                                Chưa có kinh nghiệm làm việc
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-item language">
+                            <div class="content-item-title">
+                                <span><i class="far fa-bookmark"></i></span>
+                                <span>ngôn ngữ lập trình</span>
+                            </div>
+                            <div class="content-item-main">
+                                <div class="content-item-main__list">
+                                    <div class="content-item-main__item">
+                                        <div class="content-item-main__item-des">
+                                            Đã có kiến thức cơ bản về:<br />
+                                            Front-end: HTML5, CSS3, JS, React, Ajax<br />
+                                            Back-end: C#<br />
+                                            Database: SQL Server, MySQL<br />
+                                            Quản lý code: Github, SourceTree
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-item activity">
+                            <div class="content-item-title">
+                                <span><i class="far fa-star"></i></span>
+                                <span>hoạt động</span>
+                            </div>
+                            <div class="content-item-main">
+                                <div class="content-item-main__list">
+                                    <div class="content-item-main__item">
+                                        <div class="row">
+                                            <div class="col-6 content-item-main__item-title">
+                                                clb tiếng anh
+                                            </div>
+                                            <div class="col-6 content-item-main__item-time">
+
+                                            </div>
+                                            <div class="col-12 content-item-main__item-des">
+                                                Thành viên
+                                            </div>
+                                            <br />
+                                            <span class="col-12">Tham gia câu lạc bộ, giao lưu với mọi người, nói chuyện
+                                                bằng tiếng anh
+                                                để trâu dỗi kĩ năng giao tiếp</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <h3>Compare</h3>
-                <div class="row mgb30">
-                    <div class="col-lg-6"><img class="img-thumbnail" src="img/DSC05647.JPG" title="shot on a6000"></div>
-                    <div class="col-lg-6"><img class="img-thumbnail" src="img/IMG_9812.JPG" title="shot on shitty 5d"></div>
-                </div>
-            </div>
-
-
-            <div class="rows">
-                <h2>Pic 2</h2>
-                <h3>Zoom</h3>
-                <div class="row mgb30">
-                    <div class="col-lg-6 img-magnifier-container"><img id="pic2a6k" class="img-thumbnail " src="img/DSC05670.JPG" title="shot on a6000"></div>
-                    <script>magnify("pic2a6k", 5)</script>
-                    <div class="col-lg-6 img-magnifier-container"><img id="pic25d" class="img-thumbnail " src="img/IMG_9855.JPG" title="shot on shitty 5d"></div>
-                    <script>magnify("pic25d", 5)</script>
-                </div>
-            </div>
-
-            <div class="rows">
-                <h2>Pic 3</h2>
-                <h3>Zoom</h3>
-                <div class="row mgb30">
-                    <div class="col-lg-6 img-magnifier-container"><img id="pic3a6k" class="img-thumbnail " src="img/DSC05691.JPG" title="shot on a6000"></div>
-                    
-                    <div class="col-lg-6 img-magnifier-container"><img id="pic35d" class="img-thumbnail " src="img/IMG_9870.JPG" title="shot on shitty 5d"></div>
-                    
+                    <!--Sidebar-->
+                    <div class="col-4 sidebar">
+                        <div class="profile">
+                            <div class="avatar"></div>
+                            <div class="information">
+                                <div class="information-item">
+                                    <span><i class="far fa-calendar-alt"></i></span>
+                                    <span>28/05/1999</span>
+                                </div>
+                                <div class="information-item">
+                                    <span><i class="far fa-user"></i></span>
+                                    <span>Nam</span>
+                                </div>
+                                <div class="information-item">
+                                    <span><i class="fas fa-phone-alt"></i></span>
+                                    <a href="tel:0385130230">0385130230</a>
+                                </div>
+                                <div class="information-item">
+                                    <span><i class="far fa-envelope"></i></span>
+                                    <a href="mailto:thanhquang2805@gmail.com">thanhquang2805@gmail.com</a>
+                                </div>
+                                <div class="information-item">
+                                    <span><i class="fas fa-map-marker-alt"></i></span>
+                                    <span>Kim Liên, Đống Đa, Hà Nội</span>
+                                </div>
+                                <div class="information-item">
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    <a href="https://fb.com/leekwangthank" target="_blank">fb.com/leekwangthank</a>
+                                </div>
+                                <div class="information-item">
+                                    <span><i class="fab fa-github"></i></span>
+                                    <a href="https://github.com/thanhquang28"
+                                        target="_blank">github.com/thanhquang28</a>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-title">
+                                    <span>Kỹ năng</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-item">
+                                        <span>Front-end</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped processbar-color" role="progressbar"
+                                                style="width: 40%"  aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-bar-item">
+                                        <span>Back-end</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped processbar-color" role="progressbar"
+                                                style="width: 40%"  aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-bar-item">
+                                        <span>Database</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped processbar-color" role="progressbar"
+                                                style="width: 40%"  aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-bar-item">
+                                        <span>Photoshop</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped processbar-color" role="progressbar"
+                                                style="width: 20%"  aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-bar-item">
+                                        <span>Tiếng Anh</span>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped processbar-color" role="progressbar"
+                                                style="width: 60%"  aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+    </div>
+</body>
+
 </html>
